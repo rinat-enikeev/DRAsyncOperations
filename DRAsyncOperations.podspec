@@ -8,7 +8,6 @@ Pod::Spec.new do |spec|
   spec.source           = { :git => 'https://github.com/dmcrodrigues/DRAsyncOperations.git', :tag => spec.version.to_s }
   spec.requires_arc     = true
 
-  spec.public_header_files  = 'DRAsyncOperations/DRAsyncOperations.h'
   spec.source_files         = 'DRAsyncOperations/*.{h,m}'
 
   spec.ios.deployment_target      = '7.0'
